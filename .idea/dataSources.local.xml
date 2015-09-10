@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="dataSourceStorageLocal">
+    <data-source name="SQL Server - est@dbsrvsau" uuid="4b7bf3b5-fc45-4e2c-a890-844027f673f9">
+      <secret-storage>master_key</secret-storage>
+      <user-name>est</user-name>
+      <schema-pattern>est.*</schema-pattern>
+      <default-schemas>est.*</default-schemas>
+    </data-source>
+    <data-source name="SQL Server - @10.32.18.32" uuid="6f3c6d34-65d1-47aa-9e2a-b2175715538c">
+      <secret-storage>master_key</secret-storage>
+      <user-name>sa</user-name>
+      <schema-pattern>master.*</schema-pattern>
+      <default-schemas>master.*</default-schemas>
+    </data-source>
+    <data-source name="Oracle - @10.32.16.16" uuid="4c1b7fbc-009f-4c26-98fc-1a9381949173">
+      <secret-storage>master_key</secret-storage>
+      <first-sync>true</first-sync>
+      <user-name>emcos</user-name>
+    </data-source>
+    <data-source name="MySQL - project@localhost" uuid="1f672b0a-9c23-461e-a39f-a16da0c57ac3">
+      <secret-storage>master_key</secret-storage>
+      <user-name>root</user-name>
+      <schema-pattern>project.*</schema-pattern>
+      <default-schemas>project.*</default-schemas>
+    </data-source>
+  </component>
+</project>
+
